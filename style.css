@@ -120,7 +120,6 @@ p{
     margin-left: 16px;
 }
 .table2{
-    margin: 0 auto;
     white-space: nowrap;
 }
 .list-group{
@@ -145,5 +144,8 @@ p{
     }
     .table{
         width: 70%;
+    }
+    .table2{
+        margin: 0 auto;
     }
 }
