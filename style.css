@@ -1,0 +1,149 @@
+/* Navbar */
+.navbar-brand{
+    font-family: 'Nerko One', cursive;
+    font-size: 32px;
+}
+
+/* Jumbotron */
+.jumbotron{
+    background-image: url(image/deliveryman.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+/* Jumbotron Display */
+.jumbotron .display-4, .lead{
+    color: black;
+}
+
+/* Nav Link */
+.nav-link{
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+/* Utility */
+.tombol{
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
+/* Working Space*/
+.workingspace{
+    text-align: center;
+}
+.workingspace h3{
+    font-size: 52px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.workingspace h3 span{
+    font-weight: 300;
+}
+
+/* Testimonial */
+.testimonial{
+    margin-top: 90px;
+}
+.testimonial h5{
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 24px;
+}
+.testimonial figure img{
+    width: 60px;
+    margin: 20px 10px 10px;
+    opacity: 0.5;
+}
+.testimonial figure img.utama{
+    width: 90px;
+    opacity: 1;
+    margin-top: 10px;
+}
+.testimonial figure h5{
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    color: burlywood;
+}
+.testimonial figure span{
+    font-size: 16px;
+    color: black;
+    margin-top: -10px;
+}
+.testimonial figcaption{
+    text-align: center;
+}
+
+/* footer */
+.footer{
+    margin-top: 100px;
+}
+.footer p{
+    color: darkturquoise;
+    font-size: 18px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.table{
+    width: 75%;
+    margin: 0 auto;
+}
+.list-group{
+    width: 50%;
+    margin: 0 auto;
+}
+form{
+    margin: 0 auto;
+}
+.paragraph{
+    margin-top: 20px;
+    margin-left: 8px;
+}
+.boss{
+    margin: 0 auto;
+    width: 250px;
+    margin-top: 10px;
+}
+.gedung{
+    width: 400px;
+    margin-top: 10px;
+}
+h3{
+    text-align: center;
+}
+p{
+    margin-left: 16px;
+}
+.table2{
+    margin: 0 auto;
+    white-space: nowrap;
+}
+.list-group{
+    overflow:hidden;  
+    position: relative;
+    display: block;
+}
+/* Desktop Version*/
+@media (min-width: 992px) {
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+    .nav-link:hover{
+        border-bottom: 3px solid wheat;
+    }
+    .jumbotron{
+        margin-top: -50px;
+    }
+    .workingspace{
+        text-align: left;
+    }
+    .table{
+        width: 70%;
+    }
+}
